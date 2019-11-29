@@ -17,5 +17,7 @@ sub parse_query_string {
     return \%hash
 }
 my $sample = 'key1=value1&&&&key2=value2';
-
+field1=value1&field2=value2&&field3=value3
+field1=value1&field2=value2&&field3=value3
+field1=value1&field2=value2&&field3=value3
 say Dumper parse_query_string $sample;
